@@ -12,6 +12,10 @@
 	<!--  Stylesheets -->
 	
 	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	// Add the new slick-theme.css if you want the default styling
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
 	
 </head>
 <body>
@@ -22,11 +26,11 @@
 			</div>
 			<div class="menu">
 				<ul>
-				<li><a href="#">Про курс</a></li>
-				<li><a href="#">Для кого курс</a></li>
-				<li><a href="#">Відгуки</a></li>
-				<li><a href="#">Контакти</a></li>
-				<li><button>Записатись на курс</button></li>
+					<li><a href="#">Про курс</a></li>
+					<li><a href="#">Для кого курс</a></li>
+					<li><a href="#">Відгуки</a></li>
+					<li><a href="#">Контакти</a></li>
+					<li><button>Записатись на курс</button></li>
 				</ul>
 			</div>
 		</div>
@@ -35,58 +39,279 @@
 		
 		<div class="first_section"> 
 			<div class="container">
-			<div class="title">
-				<div class="text">
-					<span class="first">курс</span>
-					<span class="second">UI/UX ДИЗАЙН</span>
-					<span class="third">для початківців у м.Дрогобич від студії #hart_code</span>
+				<div class="title">
+					<div class="text">
+						<span class="first">курс</span>
+						<span class="second">UI/UX ДИЗАЙН</span>
+						<span class="third">для початківців у м.Дрогобич від студії #hart_code</span>
 
+					</div>
+					<div class="kurs">
+						<button>Записатись на курс</button>
+						<span class="start"><span>старт</span> 1 липня</span>
+					</div>
 				</div>
-				<div class="kurs">
-				<button>Записатись на курс</button>
-				<span class="start"><span>старт</span> 1 липня</span>
+				<div class="image">
+					<img src="img/iphone.png">
+
 				</div>
 			</div>
-			<div class="image">
-				<img src="img/iphone.png">
+		</div>
+		<div class="about">
+			<div class="container">
+				<div class="title">ПРО 
+					<span>КУРС</span>
+				</div>
+				<div class="benefits">
+					<div class="benefits_first">
+						<div class="teachers">
+							<span class="number">4</span>
+							<span class="name">викладачі </span>
+							<span class="description">з великим досвідом роботи в UI/UX</span>
+						</div>
+						<div class="houres">
+							<span class="number">22</span>
+							<span class="name">години</span>
+							<span class="description">практичних занять</span>
+						</div>
 
+					</div>
+					<div class="benefits_second">
+						<div class="lectures">
+							<span class="number">36</span>
+							<span class="name">лекцій</span>
+							<span class="description">з відбірним матерілом</span>
+						</div>
+						<div class="projects">
+							<span class="number">2</span>
+							<span class="name">проекти </span>
+							<span class="description">як результат курсу</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="auditory">
+			<div class="container">
+				<div class="about_auditory">
+					<div class="text_about">Лекції проходитимуть у сучасній обладнаній аудиторії</div>
+					<div class="icons">
+						<div class="circle">
+							<img src="img/projector.png">
+						</div>
+						<div class="circle">
+							<img src="img/coffee.png">
+						</div>
+						<div class="circle">
+							<img src="img/coffee.png">
+						</div>
+						<div class="circle">
+							<img src="img/vector.png">
+						</div>
+					</div>
+				</div>
+				<div class="slider">
+					<div class="slider_banner">					
+						<div class="slider_slick">
+							<div> <img src="img/auditory.jpg"></div>
+							<div> <img src="img/auditory.jpg"></div>
+							<div> <img src="img/auditory.jpg"></div>
+						</div>
+
+					</div>
+					<div class="slider-controls">
+						<button id="slider_prev">
+							<img src="img/left-arrow.svg">
+						</button>
+						<span id="current_slide">1</span>
+						із
+						<span id="total_slides">6</span>
+						<button id="slider_next">
+							<img src="img/right-arrow.svg">
+						</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="about">
+	<div class="home_for_who">
 		<div class="container">
-			<div class="title">ПРО 
-				<span>КУРС</span>
-			</div>
-			<div class="benefits">
-			<div class="benefits_first">
-				<div class="teachers">
-					<span class="number">4</span>
-					<span class="name">викладачі </span>
-					<span class="description">з великим досвідом роботи в UI/UX</span>
+			<div class="d-flex">
+				<div class="title">КОМУ ПІДІЙДЕ
+					<span>КУРС</span>	
 				</div>
-				<div class="houres">
-					<span class="number">22</span>
-					<span class="name">години</span>
-					<span class="description">практичних занять</span>
+				<div class="items">
+
+					<div class="item">
+						<div class="item_thumb">
+							<div class="image-holder" style="background-image: url('img/beginer.jpg');"></div>
+						</div>
+						<div class="item_title">ПОЧАТКІВЦЯМ</div>
+						<div class="item_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+					</div>
+					<div class="item">
+						<div class="item_thumb">
+							<div class="image-holder" style="background-image: url('img/children.jpg');"></div>
+						</div>
+						<div class="item_title">ПОЧАТКІВЦЯМ</div>
+						<div class="item_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+					</div>
+
+
+					<div class="item">
+						<div class="item_thumb">
+							<div class="image-holder" style="background-image: url('img/carear.jpg');"></div>
+						</div>
+						<div class="item_title">ПОЧАТКІВЦЯМ</div>
+						<div class="item_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+					</div>
+					<div class="item">
+						<div class="item_thumb">
+							<div class="image-holder" style="background-image: url('img/knowladge.jpg');"></div>
+						</div>
+						<div class="item_title">ПОЧАТКІВЦЯМ</div>
+						<div class="item_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+					</div>
+
 				</div>
-				
-			</div>
-			<div class="benefits_second">
-				<div class="lectures">
-					<span class="number">36</span>
-					<span class="name">лекцій</span>
-					<span class="description">з відбірним матерілом</span>
-				</div>
-				<div class="projects">
-					<span class="number">2</span>
-					<span class="name">проекти </span>
-					<span class="description">як результат курсу</span>
-				</div>
-			</div>
 			</div>
 		</div>
 	</div>
-	</main>
+	<div class="application">
+		<div class="container">
+			<div class="title">
+				Не зволікай! 
+				<span>Залиш заявку та поринь у світ UI/UX дизайну</span>
+			</div>
+			
+			<div class="action">
+				<button>Залишити заявку</button>
+				<div class="comment">🔥 перше заняття безкоштовне</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="reviews">
+		<div class="container">
+			<div class="title">
+				ВІДГУКИ
+				<span>ВИПУСКНИКІВ</span>
+			</div>
+			<div class="slider">
+				<div class="reviews_slider">
+					<div class="slick_slider_reviews">
+						<div class="block">
+							<div class="review">
+								<img src="img/quote-left.svg">
+								<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+								<div class="d-flex">
+									<div class="person">
+										<div class="name">Андрій</div>
+										<div class="possition">Senior UI/UX designer, Softserve</div>
+									</div>
+									<div class="photo">
+										<img src="img/avatar.png">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="review">
+								<img src="img/quote-left.svg">
+								<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+								<div class="d-flex">
+									<div class="person">
+										<div class="name">Андрій</div>
+										<div class="possition">Senior UI/UX designer, Softserve</div>
+									</div>
+									<div class="photo">
+										<img src="img/avatar.png">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="review">
+								<img src="img/quote-left.svg">
+								<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+								<div class="d-flex">
+									<div class="person">
+										<div class="name">Андрій</div>
+										<div class="possition">Senior UI/UX designer, Softserve</div>
+									</div>
+									<div class="photo">
+										<img src="img/avatar.png">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="review">
+								<img src="img/quote-left.svg">
+								<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+								<div class="d-flex">
+									<div class="person">
+										<div class="name">Андрій</div>
+										<div class="possition">Senior UI/UX designer, Softserve</div>
+									</div>
+									<div class="photo">
+										<img src="img/avatar.png">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="review">
+								<img src="img/quote-left.svg">
+								<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+								<div class="d-flex">
+									<div class="person">
+										<div class="name">Андрій</div>
+										<div class="possition">Senior UI/UX designer, Softserve</div>
+									</div>
+									<div class="photo">
+										<img src="img/avatar.png">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="review">
+								<img src="img/quote-left.svg">
+								<div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+								<div class="d-flex">
+									<div class="person">
+										<div class="name">Андрій</div>
+										<div class="possition">Senior UI/UX designer, Softserve</div>
+									</div>
+									<div class="photo">
+										<img src="img/avatar.png">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slider-controls">
+					<button id="slider_reviews_prev">
+						<img src="img/left-arrow.svg">
+					</button>
+					<span id="current_slide_reviews">1</span>
+					із
+					<span id="total_slides_reviews">6</span>
+					<button id="slider_reviews_next">
+						<img src="img/right-arrow.svg">
+					</button>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</main>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script src="js/app.js"></script>
+
 </body>
 </html>
