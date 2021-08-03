@@ -1,3 +1,10 @@
+
+  $(document).on('click', '.header__menu-toggle', function(){
+
+      $(this).toggleClass('opened');
+      $('.slide-menu').toggleClass('opened');
+    }) 
+
 $('.slider_slick').on('init', function(event, slick){
   var totalSlides = slick.slideCount;
   $('#total_slides').html(totalSlides);
